@@ -6,7 +6,9 @@ void	ft_putchar(char c)
 }
 void	condition(int abs, int ord, int x, int y)
 {
-	
+	if ((abs == 1 && ord == 1) || (abs  == 1 && ord == y) || (abs == x && ord == 1) || (abs == x && ord == y))
+	ft_putchar('o');
+	//la suite demain
 }
 void	rush0(int x, int y)
 {
